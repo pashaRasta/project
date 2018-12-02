@@ -1,0 +1,33 @@
+
+@mixin h1_style{
+font-size: 42px;
+font-weight: bold;
+text-shadow: 0 0 10px rgba(0,0,0,0.5);
+} /*@include h1_style*/
+
+@mixin h2_style{
+font-size: 30px;
+text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}/*@include h2_style*/
+
+@mixin h3_style{
+font-size: 19px;
+text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}/*@include h3_style*/
+
+@mixin p_style{
+font-size: 12px;
+text-transform: uppercase;
+text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}/*@include p_style*/
+
+
+@mixin button_red{
+background: #313030;
+width: 213px;
+height: 54px;
+color: #e0e0e0;
+font-weight: bold;
+border-radius: 12px;
+transition: background-color 1s linear
+}/*@include button_red*/
