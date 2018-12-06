@@ -31,3 +31,12 @@ font-weight: bold;
 border-radius: 12px;
 transition: background-color 1s linear
 }/*@include button_red*/
+
+@mixin a_style{
+text-align: center;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+color: #e0e0e0;	
+
+}/*@include a_style*/
